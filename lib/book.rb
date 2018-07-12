@@ -5,11 +5,15 @@ class Book
   def initialize(title)
     @title = title
   end
-  
+
   def title
      @title
     end
     def author=(author)
    @author = author
+  #  Setters are methods that allow us to set instance variables. It seems weird, but they all are named like this: property=. 
+
+
+
  end
 end
